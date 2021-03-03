@@ -3,11 +3,19 @@ id: install3
 title: Install - Part 3
 ---
 
-In this section we will deploy KubeDirector to minikube.
+In this section we will deploy KubeDirector to minikube. To do this, we need to clone the kubedirector git repository.
+
+##Clone KubeDirector git repository
+
+In the Lab Browser UI terminal, enter the command:
+
+```
+git clone https://github.com/bluek8s/kubedirector
+```
 
 ## Deploy KubeDirector
 
-In the Lab Browser UI terminal, enter the command:
+Next, enter the command:
 
 ```
 $ make deploy
@@ -69,7 +77,7 @@ At which point I could run the following which completed successfully:
 
 ```
 make undeploy
-make dedeploy
+make deploy
 ```
 
 :::
