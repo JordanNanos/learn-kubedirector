@@ -5,16 +5,15 @@ title: Install - Part 2
 
 In this section, you will setup the lab environment.
 
-## Clone git repositories
+## Clone git repository for lab
 
-You need to clone both the kubediretor-lab and kubedirector git repositories.
+You need to clone the kubedirector-lab repository to get started.
 
 Note that you will clone the kubedirector repository **inside** the folder where you cloned the kubedirector-lab repository.
 
 ```
 git clone https://github.com/hpe-container-platform-community/kubedirector-lab
 cd kubedirector-lab
-git clone https://github.com/bluek8s/kubedirector
 ```
 
 ## Install vagrant plugin
